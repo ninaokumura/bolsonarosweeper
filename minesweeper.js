@@ -65,7 +65,7 @@ function checkForWin(evt) {
   }
 
   if (!hasUnmarkedMines || !hasHiddenCells) {
-    lib.displayMessage('You win!');
+    lib.displayMessage('You won!');
   }
 }
 
