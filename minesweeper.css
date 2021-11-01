@@ -1,7 +1,10 @@
 html,
 body {
+  font-size: 62.5%;
   height: 100%;
   font-family: 'Open Sans', sans-serif;
+  background-color: #537466;
+  color: #e6ebe9;
 }
 
 body {
@@ -19,7 +22,7 @@ body {
 }
 
 #message {
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 .board {
@@ -28,8 +31,8 @@ body {
 }
 
 .board div {
-  color: green;
-  font-size: 2rem;
+  color: #093824;
+  font-size: 2.5rem;
   width: 75px;
   height: 75px;
   border: 1px #ccc dotted;
@@ -55,21 +58,28 @@ div.hidden {
 }
 
 div.hidden:hover {
-  background: #ccc;
+  background: #b5c3bd;
 }
 
 div.marked,
 div.marked:hover {
-  background: no-repeat center/60% url('images/mark.svg') deepskyblue;
+  background: no-repeat center/60% url('images/mark.svg') #db8200;
+}
+
+.footer {
+  /* display: grid; */
+  /* place-items: center; */
+  padding: 2rem;
 }
 
 #reset-btn {
   width: 8rem;
-  height: 2rem;
-  margin-top: 2rem;
-  border-radius: 0.5;
+  height: 3rem;
+  border: none;
+  border-radius: 0.4rem;
 }
 
 #reset-btn:hover {
-  background-color: lightgrey;
+  background-color: #051c12;
+  color: #b5c3bd;
 }

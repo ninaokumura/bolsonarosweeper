@@ -88,7 +88,7 @@ function checkForWin(evt) {
   //Check if all of the cells that are not mine are visible
   //Check if all mines are marked
   if (hasExploded && !board.playedBombSound) {
-    console.log('Boom');
+    // console.log('Boom');
     const explosionSound = new Audio('./bomb.mp3');
     explosionSound.play();
     board.playedBombSound = true;
