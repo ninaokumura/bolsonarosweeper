@@ -63,7 +63,7 @@ div.hidden:hover {
 
 div.marked,
 div.marked:hover {
-  background: no-repeat center/60% url('images/mark.svg') #db8200;
+  background: no-repeat center/60% url('images/flag.svg') #db8200;
 }
 
 .footer {
